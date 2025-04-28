@@ -1,0 +1,48 @@
+/* import font Poppins dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif; /* menggunakan font Poppins untuk seluruh halaman */
+}
+
+section {
+  padding-top: 60px; /* padding atas untuk tiap section */
+  padding-bottom: 60px; /* padding bawah untuk tiap section */
+}
+
+h1 {
+  font-weight: 700; /* bold tebal untuk Hero Section */
+  white-space: nowrap; /* supaya teks Hero tidak terpotong ke baris baru */
+}
+
+.circle-icon {
+  background-color: #0d6efd; /* warna background lingkaran ikon layanan (biru) */
+  width: 60px; /* diameter lingkaran */
+  height: 60px; /* diameter lingkaran */
+  border-radius: 50%; /* membuat bentuk lingkaran sempurna */
+  display: flex; /* flexbox untuk center isi */
+  align-items: center; /* vertikal center isi */
+  justify-content: center; /* horizontal center isi */
+}
+
+.circle-icon-sm {
+  width: 40px; /* diameter kecil untuk icon sosial media */
+  height: 40px; /* diameter kecil */
+  border-radius: 50%; /* lingkaran penuh */
+  font-size: 18px; /* ukuran icon di dalam lingkaran */
+  display: flex; /* flexbox untuk centering */
+  align-items: center; /* vertikal center isi */
+  justify-content: center; /* horizontal center isi */
+  background-color: #fff; /* warna background putih */
+  color: #0d6efd; /* warna ikon biru */
+}
+
+.contact-info h5 {
+  font-weight: 700; /* membuat judul kecil (Alamat, Kontak, Jadwal Buka, Sosial Media) menjadi bold */
+  margin-top: 20px; /* memberi jarak atas untuk tiap judul */
+}
+
+footer {
+  background-color: #f8f9fa; /* warna background footer abu terang */
+  font-size: 14px; /* ukuran teks kecil untuk footer */
+}
